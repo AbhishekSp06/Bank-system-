@@ -1,0 +1,29 @@
+<html>
+	<body>
+	<head>
+		<style>
+			body{
+				 background-attachment:fixed;
+				 https://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpghttps://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpg
+				 font-family:Arial,san-serif;
+				 padding-top:50px;
+				 background-image: url('https://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpg');
+				 background-size:1170px;
+				 height:60px;
+			
+		</style>
+	</head>
+		<center>
+		<form action="delete success.html" method="post">
+
+			Enter name :<input type="text" name="customer name"> <br><br>
+			Enter account number:<input type="account number" name="account number"> <br><br>
+
+			<input type="submit" value="Delete">
+		</form>
+		</center>
+
+
+
+	</body>
+</html>

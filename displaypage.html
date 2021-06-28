@@ -1,0 +1,46 @@
+<html>
+<head>
+		<style>
+			body{
+				 background-attachment:fixed;
+				 https://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpghttps://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpg
+				 font-family:Arial,san-serif;
+				 padding-top:50px;
+				 background-image: url('https://thumbs.dreamstime.com/z/bank-building-d-rendering-34982681.jpg');
+				 background-size:1170px;
+				 height:60px;
+			
+		</style>
+	</head>
+	<body>
+	<center>
+		<h1>Display page</h1>
+		<table>
+			<theader>
+				<th>name</th>
+				<th>gender</th>
+				<th>D.O.B</th>
+				<th>address</th>
+				<th>account type</th>
+				<th>account number</th>
+
+			</theader>
+			{% for row in hrows %}
+				<tr>
+					 <td>{{row[0] }}</td>
+					 <td>{{row[1] }}</td>
+					 <td>{{row[2] }}</td>
+					 <td>{{row[3] }}</td>
+					 <td>{{row[4] }}</td>
+					 <td>{{row[5] }}</td>
+
+				</tr>
+			{% endfor %}
+
+
+		</table>
+<h2>Do u want to delete or insert</h2>
+<a href="login success.html"> Go back to login success page</a>
+	</center>
+	</body>
+</html>
